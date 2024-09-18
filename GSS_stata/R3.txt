@@ -1,0 +1,106 @@
+		(1)	(2)
+VARIABLES	LABELS	rep	rep
+			
+1.less_high_school	Respondent has <12 years of schooling = 1	-0.132***	-0.112***
+		(0.027)	(0.037)
+1.post	post = 1	-0.225***	-0.217***
+		(0.021)	(0.023)
+0b.less_high_school#0b.post		0.000	0.000
+		(0.000)	(0.000)
+0b.less_high_school#1o.post		0.000	0.000
+		(0.000)	(0.000)
+1o.less_high_school#0b.post		0.000	0.000
+		(0.000)	(0.000)
+1.less_high_school#1.post		-0.038	-0.079
+		(0.031)	(0.049)
+0b.less_high_school#0b.post#1974b.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1978o.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1982o.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1986o.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1990o.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1994o.year			0.000
+			(0.000)
+0b.less_high_school#0b.post#1998o.year			0.000
+			(0.000)
+0b.less_high_school#1o.post#1974b.year			0.000
+			(0.000)
+0b.less_high_school#1o.post#1978o.year			0.000
+			(0.000)
+0b.less_high_school#1.post#1982.year			-0.009
+			(0.046)
+0b.less_high_school#1.post#1986.year			-0.014
+			(0.053)
+0b.less_high_school#1.post#1990.year			-0.089
+			(0.062)
+0b.less_high_school#1.post#1994.year			-0.023
+			(0.044)
+0b.less_high_school#1o.post#1998o.year			0.000
+			(0.000)
+1o.less_high_school#0b.post#1974b.year			0.000
+			(0.000)
+1.less_high_school#0b.post#1978.year			-0.042
+			(0.053)
+1o.less_high_school#0b.post#1982o.year			0.000
+			(0.000)
+1o.less_high_school#0b.post#1986o.year			0.000
+			(0.000)
+1o.less_high_school#0b.post#1990o.year			0.000
+			(0.000)
+1o.less_high_school#0b.post#1994o.year			0.000
+			(0.000)
+1o.less_high_school#0b.post#1998o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1974b.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1978o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1982o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1986o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1990o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1994o.year			0.000
+			(0.000)
+1o.less_high_school#1o.post#1998o.year			0.000
+			(0.000)
+2.religion	Religion = 2, Catholic	-0.066***	-0.066***
+		(0.013)	(0.013)
+3.religion	Religion = 3, No religion	-0.204***	-0.204***
+		(0.020)	(0.020)
+4.religion	Religion = 4, Other	-0.184***	-0.185***
+		(0.024)	(0.024)
+2.age_cat	Age (categorical) = 2, 30-49	0.053***	0.053***
+		(0.016)	(0.016)
+3.age_cat	Age (categorical) = 3, 50-64	0.087***	0.087***
+		(0.018)	(0.018)
+4.age_cat	Age (categorical) = 4, 65+	0.101***	0.102***
+		(0.019)	(0.019)
+5.age_cat	Age (categorical) = 5, Missing	0.082	0.083
+		(0.097)	(0.098)
+1.male	Gender = 1, Male	0.036***	0.036***
+		(0.011)	(0.011)
+1978.year	Year = 1978	-0.113***	-0.102***
+		(0.023)	(0.027)
+1982.year	Year = 1982	0.055***	0.064
+		(0.019)	(0.041)
+1986.year	Year = 1986	0.271***	0.284***
+		(0.020)	(0.048)
+1990.year	Year = 1990	0.248***	0.326***
+		(0.021)	(0.057)
+1994.year	Year = 1994	0.005	0.025
+		(0.016)	(0.041)
+1998o.year	Year = 1998, omitted	-	-
+			
+Constant	Constant	0.552***	0.546***
+		(0.022)	(0.023)
+			
+Observations		8,859	8,859
+R-squared		0.077	0.078
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
