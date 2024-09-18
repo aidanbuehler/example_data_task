@@ -36,13 +36,9 @@ rename *, lower
 ***************
 
 order vote*, first
-
-// Because the data are cross-sectional, we cannot use obs. on the same individual two years in the future. 
-// This in turn means that we have to drop all obs that don't occur on the desired years. 
 keep if year < 2000 
 tab year 
 
-*Keep only years two years after election years
 gen flag = 0 
 foreach i of numlist 72 76 80 84 88 92 96 {
 	local v = 19`i' + 2
